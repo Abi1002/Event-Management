@@ -21,7 +21,17 @@ Download the Event-Management Zip file.
 ### Set-up database :
 1. Open the Mysql workbench.
 2. Create a new database using the command
-            "create database database_name"
+            "create database database_name" 
+
+
+### Set-up front-end :
+1. Open the event-management-client-main folder in VsCode.
+2. Install the "Vite" package in Node Js.
+3. Install the "npm", and "react-bootstrap" packages.
+4. Now start the server with the command
+               "npm run dev"
+
+
 
 ### Set-up back-end :
 1. Open the event-management-server folder with your preferred back-end IDE.
@@ -33,15 +43,8 @@ Download the Event-Management Zip file.
 7. Go to the Mysql workbench and check whether the tables have been successfully created.
 8. Select the role table and apply these values
                       id: 1, name: ROLE_ADMIN
-                      id: 2, name: ROLE_USER    
+                      id: 2, name: ROLE_USER   
 
-
-### Set-up front-end :
-1. Open the event-management-client-main folder in VsCode.
-2. Install the "Vite" package in Node Js.
-3. Install the "npm", and "react-bootstrap" packages.
-4. Now start the server with the command
-               "npm run dev"
 
 
 ## Application Usage Instructions:
